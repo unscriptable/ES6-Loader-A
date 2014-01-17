@@ -41,11 +41,11 @@ simpler thing to abstract.
 
 At this point, we've identified four new abstract concepts for ES6:
 
-Modules: define a basic unit of code.
-Exporters: identify values to be exported from a module.
-Importers: identify another module, that other module's exports, and
+* Modules: define a basic unit of code.
+* Exporters: identify values to be exported from a module.
+* Importers: identify another module, that other module's exports, and
 	how to bind the values into the current module.
-Loaders: fetch, translate, and otherwise prepare a module for importing.
+* Loaders: fetch, translate, and otherwise prepare a module for importing.
 
 ## Realms
 
